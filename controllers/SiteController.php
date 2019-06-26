@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Post;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -76,8 +77,8 @@ class SiteController extends Controller
      */
     public function actionPost($id)
     {
-
-        return $this->render('post', ['id' => $id]);
+        $model = new Post($id);
+        return $this->render('post', ['model' => $model]);
     }
 
     /**
