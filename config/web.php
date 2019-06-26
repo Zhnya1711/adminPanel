@@ -16,6 +16,9 @@ $config = [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'OiykGtA5RRAB3PZvn42T30XuZ55WuKf4',
         ],
+        'assetManager' => [
+            'linkAssets' => true,
+        ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
@@ -61,6 +64,7 @@ $config = [
             'rules' => [
                 '' => 'site/index',
                 '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
+                '<controller>/<action>/<id:\d+>' => '<controller>/<action>',
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
             ],
         ],

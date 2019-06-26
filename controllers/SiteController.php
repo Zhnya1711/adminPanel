@@ -70,6 +70,17 @@ class SiteController extends Controller
     }
 
     /**
+     * Page action.
+     *
+     * @return string
+     */
+    public function actionPost($id)
+    {
+
+        return $this->render('post', ['id' => $id]);
+    }
+
+    /**
      * Login action.
      *
      * @return Response|string
