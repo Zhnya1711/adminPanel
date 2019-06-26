@@ -54,6 +54,16 @@ $config = [
             ],
         ],
         */
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'enableStrictParsing' => true,
+            'showScriptName' => false,
+            'rules' => [
+                '' => 'site/index',
+                '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
+            ],
+        ],
     ],
     'params' => $params,
 ];
