@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\models\Post;
+use app\models\Mod;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -71,7 +72,7 @@ class SiteController extends Controller
     }
 
     /**
-     * Page action.
+     * Post action.
      *
      * @return string
      */
@@ -79,6 +80,17 @@ class SiteController extends Controller
     {
         $model = new Post($id);
         return $this->render('post', ['model' => $model]);
+    }
+
+    /**
+     * Mod action.
+     *
+     * @return string
+     */
+    public function actionMod($id)
+    {
+        $model = new Mod($id);
+        return $this->render('mod', ['model' => $model]);
     }
 
     /**

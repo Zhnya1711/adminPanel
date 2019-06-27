@@ -5,14 +5,14 @@ namespace app\models;
 use DOMDocument;
 use XSLTProcessor;
 
-class Post
+class Mod
 {
     private $proc;
 
     function __construct($id)
     {
         $xml = __DIR__ . '/post/' . $id . '.xml';
-        $xsl = __DIR__ . '/post/template/index.xsl';
+        $xsl = __DIR__ . '/post/template/mod.xsl';
 
         if ((file_exists($xml)) && (file_exists($xsl))) {
 
@@ -25,7 +25,6 @@ class Post
             $proc = new XSLTProcessor();
             $proc->importStyleSheet($xslDoc);
             $this->proc = $proc->transformToXML($xmlDoc);
-
         } else {
             $this->proc = '';
         }
