@@ -4,15 +4,17 @@
 
     <xsl:template match="/">
 
-        <h2>My CD Collection</h2>
+        <form method="post" action="/edittool.php">
+            <xsl:apply-templates select="//info"/>
 
-        <xsl:apply-templates select="//info"/>
+            <input type="submit" id="btn_sub" name="btn_sub" value="Submit"/>
+            <input type="reset" id="btn_res" name="btn_res" value="Reset"/>
+        </form>
 
-        <xsl:apply-templates select="//root"/>
 
     </xsl:template>
 
-    <xsl:include href="info.xsl"/>
+    <xsl:include href="info2.xsl"/>
 
     <xsl:include href="root.xsl"/>
 
@@ -20,7 +22,7 @@
 
     <xsl:include href="bootstrap3/well-sm.xsl"/>
 
-    <xsl:include href="bootstrap3/well.xsl"/>
+    <xsl:include href="bootstrap3/well2.xsl"/>
 
     <xsl:include href="bootstrap3/row.xsl"/>
 

@@ -12,7 +12,7 @@ class Mod
     function __construct($id)
     {
         $xml = __DIR__ . '/post/' . $id . '.xml';
-        $xsl = __DIR__ . '/post/template/mod.xsl';
+        $xsl = __DIR__ . '/post/template/mod2.xsl';
 
         if ((file_exists($xml)) && (file_exists($xsl))) {
 
