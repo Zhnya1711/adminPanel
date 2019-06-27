@@ -65,6 +65,7 @@ $config = [
                 '' => 'site/index',
                 '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
                 '<controller>/<action>/<id:\d+>' => '<controller>/<action>',
+                '<controller>/<action>/<id:\w+>' => '<controller>/<action>',
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
             ],
         ],
