@@ -1,0 +1,8 @@
+<!ELEMENT post (info,history)>
+<!ELEMENT info (row*,well*,btn-success*,well-sm*)>
+<!ELEMENT history (row*,well*,btn-success*,well-sm*)>
+<!ELEMENT row (col-sm-4+)>
+<!ELEMENT col-sm-4 (#PCDATA)>
+<!ELEMENT well (#PCDATA)>
+<!ELEMENT btn-success (#PCDATA)>
+<!ELEMENT well-sm (#PCDATA)>

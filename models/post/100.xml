@@ -1,26 +1,23 @@
-<?xml version="1.0" encoding="WINDOWS-1251" ?>
-<?xml-stylesheet type="text/xsl" href="template/index.xsl" ?>
-<book>
-  <info>
-    <row>
-      <col-sm-4>.col-sm-4</col-sm-4>
-      <col-sm-4>.col-sm-4</col-sm-4>
-      <col-sm-4>.col-sm-4</col-sm-4>
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<?xml-stylesheet type="text/xsl" href="template/index.xsl"?>
+<!DOCTYPE post SYSTEM "template/post.dtd">
+<post>
+	<info>
+		<row>
+			<col-sm-4>
+				111
+			</col-sm-4>
+			<col-sm-4>
+				222
+			</col-sm-4>
+			<col-sm-4>
+				333
+			</col-sm-4>
     </row>
-    <well>dfgdtg</well>
-    <btn-success>2wefwef222222222</btn-success>
-    <well>11111w11111</well>
-    <well-sm>55555555555555555</well-sm>
-  </info>
-  <root>
-    <well>444444</well>
-    <btn-success>2222222222</btn-success>
-    <well>13333333333</well>
-    <row>
-      <col-sm-4>.col-sm-4</col-sm-4>
-      <col-sm-4>.col-sm-4</col-sm-4>
-      <col-sm-4>.col-sm-4</col-sm-4>
-    </row>
-  </root>
-
-</book>
+	</info>
+	<history>
+		<well>
+			444444
+		</well>
+	</history>
+</post>
