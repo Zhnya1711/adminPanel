@@ -12,14 +12,13 @@ class Post
 
     function __construct($id)
     {
-        //$xml = __DIR__ . '/post/' . $id . '.xml';
+        $xml = __DIR__ . '/post/' . $id . '.xml';
         $xsl = __DIR__ . '/post/template/index.xsl';
 
-        if ((file_exists($xsl))) {//(file_exists($xml)) && 
-
+        if ((file_exists($xml)) && (file_exists($xsl))) {//
             $xmlDoc = new DOMDocument('1.0', 'WINDOWS-1251');
-            //$xmlDoc->load($xml);
-            $post = $xmlDoc->createElement('post');
+            $xmlDoc->load($xml);
+            /*$post = $xmlDoc->createElement('post');
             $xmlDoc->appendChild($post);
             $info = $xmlDoc->createElement('info');
             $post->appendChild($info);
@@ -34,7 +33,7 @@ class Post
             $colsm43 = $xmlDoc->createElement('col-sm-4', '3333333333');
             $row->appendChild($colsm43);
             $well = $xmlDoc->createElement('well', '4444444');
-            $history->appendChild($well);
+            $history->appendChild($well);*/
 
             $xslDoc = new DOMDocument();
             $xslDoc->load($xsl);
