@@ -18,6 +18,7 @@ class Post
         if ((file_exists($xml)) && (file_exists($xsl))) {//
             $xmlDoc = new DOMDocument('1.0', 'WINDOWS-1251');
             $xmlDoc->load($xml);
+            
             /*$post = $xmlDoc->createElement('post');
             $xmlDoc->appendChild($post);
             $info = $xmlDoc->createElement('info');
