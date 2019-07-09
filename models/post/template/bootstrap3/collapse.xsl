@@ -2,7 +2,10 @@
 <xsl:template match="row">
 <div class="container-fluid">
 <div class="row">
-    <xsl:apply-templates/>  
+    <button data-toggle="collapse" data-target="#demo">Collapsible</button>
+    <div id="demo" class="collapse">
+    Lorem ipsum dolor text....
+</div> 
 </div></div>
 </xsl:template>
 </xsl:stylesheet>
