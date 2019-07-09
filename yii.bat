@@ -11,9 +11,9 @@ rem -------------------------------------------------------------
 
 @setlocal
 
-set YII_PATH=%~dp0
+set YII_PATH="C:\Users\студ\Desktop\62-1 Исполнительская практика\PortableGit\adminPanel"
 
-if "%PHP_COMMAND%" == "" set PHP_COMMAND=php.exe
+if "%PHP_COMMAND%" == "" set PHP_COMMAND="C:\Users\студ\Desktop\62-1 Исполнительская практика\PortableGit\php\php.exe"
 
 "%PHP_COMMAND%" "%YII_PATH%yii" %*
 
