@@ -25,6 +25,5 @@
     </div>
   </div>
 </div>
-  </div>
 </xsl:template>
 </xsl:stylesheet>
