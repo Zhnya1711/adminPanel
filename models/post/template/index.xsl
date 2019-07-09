@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="WINDOWS-1251" ?>
 
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
     <xsl:template match="/">
 
-        <h2>My CD Collection</h2>
+        <h2>My CD Collection222</h2>
 
         <xsl:apply-templates select="//info"/>
 
