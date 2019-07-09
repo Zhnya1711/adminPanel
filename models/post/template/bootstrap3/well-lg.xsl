@@ -1,7 +1,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-<xsl:template match="btn-success">
-  <button type="button" class="btn btn-success">
+<xsl:template match="well-lg">
+  <div class="well well-lg">
     <xsl:value-of select="."/>
-  </button>
+  </div>
 </xsl:template>
-</xsl:stylesheet> //
+</xsl:stylesheet>
