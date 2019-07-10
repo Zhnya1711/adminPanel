@@ -2,6 +2,6 @@
 <xsl:template match="alertInfo">
   <div class="alert alert-info">
     <xsl:value-of select="."/>
-  </div>
+  </div>.
 </xsl:template>
 </xsl:stylesheet>
