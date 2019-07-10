@@ -3,5 +3,5 @@
   <div class="alert alert-info">
     <xsl:value-of select="."/>
   </div>
-</xsl:template>
+</xsl:teate>
 </xsl:stylesheet>

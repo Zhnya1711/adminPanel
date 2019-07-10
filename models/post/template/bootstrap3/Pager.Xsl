@@ -3,7 +3,7 @@
   <div class="Pager">
     <ul class="pager">
   <li><a href="#">Previous</a></li>
-  <li><a href="#">Next</a></li>
+  <li><a href="#">Net</a></li>
 </ul>
   </div>
 </xsl:template>
