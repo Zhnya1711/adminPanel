@@ -2,6 +2,8 @@
 <xsl:template match="alertInfo">
   <div class="alert alert-info">
     
+
+    
   </div>
 </xsl:template>
 </xsl:stylh/>
