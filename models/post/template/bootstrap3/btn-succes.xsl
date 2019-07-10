@@ -4,4 +4,4 @@
     <xsl:value-of select="."/>
   </button>
 </xsl:template>
-</xsl:stylesheet>//
+</xsl:style
