@@ -3,5 +3,5 @@
   <div class="alert alert-info">
     <xsl:vae sele."/>
   </d
-</xsl:teate>
+</xsl:tea>
 </xsl:h/
