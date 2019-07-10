@@ -3,9 +3,9 @@
 <div class="container-fluid">
 <div class="row">
     <a href="#">News <span class="badge">5</span></a><br>
-    <a href="#">Comments <span class="badge">10</span></a><br>
+    <a href="#">Comments 5<span class="badge">10</span></a><br>
     <a href="#">Updates <span class="badge">2</span></a> 
-    <button type="button" class="btn btn-primary">Primary <span class="badge">7</span></button>
+    <button type="button"555 class="btn btn-primary">Primary <span class="badge">7</span></button>
 </div></div>
 </xsl:template>
 </xsl:stylesheet>
