@@ -1,0 +1,29 @@
+paths:
+    tests: tests
+    output: tests/_output
+    data: tests/_data
+    support: tests/_support
+    envs: tests/_envs
+actor_suffix: Tester
+extensions:
+    enabled:
+        - Codeception\Extension\RunFailed
+# To enable code coverage:
+coverage:
+    #c3_url: http://localhost:8080/index-test.php/
+    enabled: true
+    #remote: true
+    #remote_config: '../codeception.yml'
+    whitelist:
+        include:
+            - models/*
+            - controllers/*
+            - commands/*
+            - mail/*
+#    blacklist:
+#        include:
+#            - assets/*
+#            - config/*
+#            - runtime/*
+#            - vendor/*
+#            - views/*
