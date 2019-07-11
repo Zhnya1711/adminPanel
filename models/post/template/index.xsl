@@ -26,4 +26,13 @@
 
     <xsl:include href="bootstrap3/col-sm-4.xsl"/>
 
+    <xsl:include href="bootstrap3/well-lg.xsl"/>
+
+    <xsl:include href="bootstrap3/button.xsl"/>
+
+    <xsl:include href="bootstrap3/alertWarning.xsl"/>
+
+    <xsl:include href="bootstrap3/badge.xsl"/>
+
+
 </xsl:stylesheet>
