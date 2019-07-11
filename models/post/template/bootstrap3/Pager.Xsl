@@ -7,4 +7,4 @@
 </ul>
   </div>
 </xsl:template>
-</xsl:stylesheet>
+</xsl:stylesheet>(Новое слово от Жени Наумова)
