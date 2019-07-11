@@ -4,4 +4,4 @@
     <xsl:value-of select="."/>
   </div>
 </xsl:t
-</xsl:s
+</xsl:s Привет джения
